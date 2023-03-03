@@ -1,7 +1,6 @@
 import { getPostsMetada } from '../utils/generatePostMetada'
 import PostPreview from './components/PostPreview'
 
-
 const postPreview = getPostsMetada().map((post) => (
    <PostPreview key={post.slug} {...post} />  
 ))
