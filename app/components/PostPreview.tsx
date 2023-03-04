@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import type {PostMetadata} from '../../types/postsMetadata'
+
 
 export default function PostPreview(props: PostMetadata) {
   return (
