@@ -1,6 +1,6 @@
 import fs from 'fs'
 import matter from 'gray-matter'
-import type {PostMetadata} from '../types/postsMetadata'
+
 
 export function getPostsMetada(): PostMetadata[] {
     return fs.readdirSync('posts/')
